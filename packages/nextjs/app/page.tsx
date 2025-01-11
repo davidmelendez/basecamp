@@ -191,7 +191,7 @@ const Home = () => {
                     className={`btn btn-lg flex-1 ${selectedToken === "ETH" ? "btn-primary" : "btn-outline"}`}
                     onClick={() => {
                       setSelectedToken("ETH");
-                      setDisplayAmount("0");
+                      setDisplayAmount("0"); //setDisplayAmount("0");
                       setInputAmount(0n);
                     }}
                   >
