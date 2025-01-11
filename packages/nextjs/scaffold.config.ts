@@ -11,8 +11,7 @@ export type ScaffoldConfig = {
 };
 
 const scaffoldConfig = {
-  targetNetworks: [chains.devnet],
-  // Only show the Burner Wallet when running on devnet
+  targetNetworks: [chains.sepolia],
   onlyLocalBurnerWallet: false,
   rpcProviderUrl: process.env.NEXT_PUBLIC_PROVIDER_URL || "",
   // The interval at which your front-end polls the RPC servers for new data
